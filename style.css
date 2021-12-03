@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(216, 50%, 16%);
+     width: 22rem;
+    margin-top: 50px;
+    margin-bottom: 2rem;
+    border-radius: 1.5rem;
+    /* box-shadow: .4rem .4rem 1rem #000,-.2rem -.4rem 1rem ; */
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.main-img{
+    width: 19rem;
+    margin-top: 1.7rem;
+    border-radius: .8rem;
+}
+.main-img:hover{
+    color: cyan;
+}
+.text-container{
+    /* border: 2px solid red; */
+    width: 85%;
+}
+.heading{
+   
+}
+.heading a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+.heading:hover a{
+    color: hsl(178, 100%, 50%);
+}
+.description{
+    color: hsl(215, 51%, 70%);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 300;
+   
+}
+.sub-part{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.part1{
+    display: flex;
+    /* border: 2px solid red; */
+    
+    
+}
+.part1 img{
+    /* border: 2px solid blue; */
+    margin: auto 5px auto 0;
+}
+.part1 h3{
+    color:cyan;
+    font-weight: 300;
+}
+.part2{
+    display: flex;
+}
+.part2 img{
+    margin: auto 5px auto 0;
+}
+.part2 h3{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.attribution{
+    display: flex;
+    border-top: .1px solid hsl(215, 32%, 27%);
+    padding-top: .2rem;
+    align-items: center;
+    margin-bottom: 1.2rem;
+    
+    
+}
+.attribution img{
+    width:2.4rem;
+    height: 2.4rem;
+    object-fit: contain;
+    /* border: 2px solid #fff; */
+    border-radius: 50%;
+    border: 1px solid #fff;
+    
+
+}
+.attribution p{
+    color: hsl(215, 51%, 70%) ;
+    margin-left: 1.4rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.attributed-by-link{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+.attributed-by-link:hover{
+    color: cyan;
+}
